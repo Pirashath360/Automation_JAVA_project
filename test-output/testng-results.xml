@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14969" started-at="2019-08-07T11:37:58Z" finished-at="2019-08-07T11:38:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14969" started-at="2019-08-07T11:37:58Z" finished-at="2019-08-07T11:38:13Z">
+      <class name="tests.Tests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.Tests@91161c7]" name="beforeTest" is-config="true" duration-ms="11" started-at="2019-08-07T11:37:58Z" finished-at="2019-08-07T11:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.Tests@91161c7]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2019-08-07T11:37:58Z" finished-at="2019-08-07T11:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loadBrowser()[pri:0, instance:tests.Tests@91161c7]" name="loadBrowser" is-config="true" duration-ms="12161" started-at="2019-08-07T11:37:58Z" finished-at="2019-08-07T11:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBrowser -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:tests.Tests@91161c7]" name="nameBefore" is-config="true" duration-ms="6" started-at="2019-08-07T11:38:10Z" finished-at="2019-08-07T11:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Tests.testGenderlInformation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="testGenderlInformation()[pri:0, instance:tests.Tests@91161c7]" name="testGenderlInformation" duration-ms="2759" started-at="2019-08-07T11:38:10Z" finished-at="2019-08-07T11:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenderlInformation -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tests.Tests@91161c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-07T11:38:13Z" finished-at="2019-08-07T11:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Tests.testGenderlInformation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testGenderlInformation status=SUCCESS method=Tests.testGenderlInformation()[pri:0, instance:tests.Tests@91161c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
